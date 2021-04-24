@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    /*Background*/
+    background: linear-gradient(90deg, #ACB6E5 0%, #86FDE8 100%);
+    min-height: 100vh;
+}
+
+div {
+    border: 0px solid;
+    border-color: green;
+}
+
+nav {
+    height: 200px;
+}
+
+main {
+    width: 100%;
+}
+
+.ctn_txt,
+.ctn_img {
+    width: 50%;
+    padding-left: 5%
+}
+
+.ctn_txt {
+    color: white;
+    padding-left: 5%;
+}
+
+.bannerUp {
+    display: flex;
+    width: 100%;
+}
+
+.bannerDown {
+    display: flex;
+    padding-left: 5%;
+}
+
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.boton {
+    background-color: mediumpurple;
+    margin-left: 40%;
+    border: none;
+    color: #fff;
+    padding: 1% 3%;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+    .logo_container h1 {
+        color: white;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        font-family: 'Montserrat';
+        font-size: 32px;
+    }
+
+        .logo_container h1 span {
+            font-weight: 800;
+        }
+
+.navegador {
+    float: right;
+    height: 100%;
+}
+
+    .navegador a {
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 0px 20px;
+        color: white;
+    }
+
+        .navegador a:last-child {
+            padding-right: 0;
+        }
+
+
+        .navegador a li {
+            display: table-cell;
+            vertical-align: middle;
+            height: 100%;
+            font-family: 'Montserrat';
+        }
+
+.FontNosotros {
+    font-size: 50px;
+    color: white;
+    font-family: 'fantasy';
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.Descripcion,
+.ctn_imgSFM {
+    width: 70%;
+    padding-left: 25%
+}
+
+.Descripcion {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: white;
+}
+
+.ctn_imgSFM {
+    color: white;
+    padding-left: 43%;
+}
