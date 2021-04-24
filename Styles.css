@@ -7,7 +7,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     /*Background*/
-    background: linear-gradient(90deg, #ACB6E5 0%, #86FDE8 100%);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     min-height: 100vh;
 }
 
@@ -58,7 +58,7 @@ h2 {
 }
 
 .boton {
-    background-color: mediumpurple;
+    background-color:mediumaquamarine;
     margin-left: 40%;
     border: none;
     color: #fff;
@@ -72,7 +72,7 @@ h2 {
     width: 100%;
     height: 70px;
     display: block;
-    background-color: black;
+    background-color:burlywood;
     border-radius: 4px;
 }
 
@@ -82,6 +82,7 @@ h2 {
     display: block;
     margin: 0 auto;
     border-radius: 8px;
+
 }
 
 .logo_container {
@@ -151,5 +152,5 @@ h2 {
 
 .ctn_imgSFM {
     color: white;
-    padding-left: 43%;
+    padding-left: 30%;
 }
