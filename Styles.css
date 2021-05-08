@@ -154,3 +154,19 @@ h2 {
     color: white;
     padding-left: 30%;
 }
+
+.banner10{
+    width : 100%;
+    display: flex;
+}
+
+.IZQUIERDA{
+    width :50%;
+    padding : 10%;
+   
+}
+.DERECHA {
+    width: 40%;
+    margin : auto;
+    
+}
